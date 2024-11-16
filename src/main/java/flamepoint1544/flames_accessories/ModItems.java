@@ -15,7 +15,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SPEED_CHARM = register(new Accessory(new Item.Settings(), EntityAttributes.GENERIC_MOVEMENT_SPEED, "flames_accessories:movement_speed", 0.05, EntityAttributeModifier.Operation.MULTIPLY_TOTAL), "");
+    // Items
+    public static final Item SPEED_CHARM = register(new Accessory(new Item.Settings(), EntityAttributes.GENERIC_MOVEMENT_SPEED, "flames_accessories:movement_speed", 0.05, EntityAttributeModifier.Operation.MULTIPLY_TOTAL), "speed_charm");
 
     // item group registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlamesAccessories.MOD_ID, "primary_item_group"));
@@ -50,7 +51,7 @@ public class ModItems {
 
         // add items to registered group
         ItemGroupEvents.modifyEntriesEvent(PRIMARY_GROUP_KEY).register(itemGroup ->{
-            itemGroup.add(Items.GOLD_INGOT);
+            itemGroup.add(SPEED_CHARM);
          });
     }
 }
