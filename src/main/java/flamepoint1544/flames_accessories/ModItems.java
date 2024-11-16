@@ -2,6 +2,8 @@ package flamepoint1544.flames_accessories;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,6 +15,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    public static final Item SPEED_CHARM = register(new Accessory(new Item.Settings(), EntityAttributes.GENERIC_MOVEMENT_SPEED, "flames_accessories:movement_speed", 0.05, EntityAttributeModifier.Operation.MULTIPLY_TOTAL), "");
+
     // item group registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlamesAccessories.MOD_ID, "primary_item_group"));
 
