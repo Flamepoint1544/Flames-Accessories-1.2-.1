@@ -3,6 +3,7 @@
       "player"
     ],
     "slots": [
-      "offhand/charm"
+      "offhand/charm",
+      "offhand/ultimate"
     ]
   }

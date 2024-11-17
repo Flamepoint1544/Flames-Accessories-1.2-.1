@@ -1,7 +1,10 @@
 {
     "itemGroup.flames_accessories.primary_item_group": "Flame's Accessories",
+
     "item.flames_accessories.speed_charm": "Ring of the Swift",
-    
+    "item.flames_accessories.speed_charm_t2": "Charm of the Quick",
+    "item.flames_accessories.speed_charm_ult": "Zypher's Stride",
+
     "trinkets.slot.offhand.charm": "Charm",
     "trinkets.slot.offhand.ultimate": "Ultimate"
 }
