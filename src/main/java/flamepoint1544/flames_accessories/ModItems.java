@@ -71,9 +71,15 @@ public class ModItems {
 
         // add items to registered group
         ItemGroupEvents.modifyEntriesEvent(PRIMARY_GROUP_KEY).register(itemGroup ->{
+            // speed
             itemGroup.add(SPEED_CHARM);
             itemGroup.add(SPEED_CHARM_T2);
             itemGroup.add(SPEED_CHARM_ULT);
+            
+            // defense
+            itemGroup.add(DEFENSE_CHARM);
+            itemGroup.add(DEFENSE_CHARM_T2);
+            itemGroup.add(DEFENSE_CHARM_ULT);
          });
     }
 }

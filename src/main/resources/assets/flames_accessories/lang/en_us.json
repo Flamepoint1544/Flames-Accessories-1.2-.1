@@ -5,6 +5,10 @@
     "item.flames_accessories.speed_charm_t2": "Charm of the Quick",
     "item.flames_accessories.speed_charm_ult": "Zypher's Stride",
 
+    "item.flames_accessories.defense_charm": "Guardian's Ward",
+    "item.flames_accessories.defense_charm_t2": "Charm of the Defensive",
+    "item.flames_accessories.defense_charm_ult": "Eternal Bastion",
+
     "trinkets.slot.offhand.charm": "Charm",
     "trinkets.slot.offhand.ultimate": "Ultimate"
 }
