@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "flames_accessories:item/bastion/defense_charm"
+    }
+  }

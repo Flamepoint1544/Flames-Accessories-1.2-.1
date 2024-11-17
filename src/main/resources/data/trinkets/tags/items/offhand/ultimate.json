@@ -1,8 +1,9 @@
 {
     "replace": false,
     "values": [
-        "flames_accessories:speed_charm_exp",
-        "flames_accessories:speed_charm_t3",
-        "flames_accessories:speed_charm_t2"
+        "flames_accessories:speed_charm_ult",
+        "flames_accessories:speed_charm_t2",
+        "flames_accessories:defense_charm_ult",
+        "flames_accessories:defense_charm_t2"
     ]
 }

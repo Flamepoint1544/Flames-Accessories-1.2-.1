@@ -26,9 +26,7 @@
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+		"beyond_bedrock": ">=v1.3.0x1.20.1"
 	}
 }
